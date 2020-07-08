@@ -1,4 +1,5 @@
 <?php
+/*
 if (!function_exists('Connect')) {
     function Connect()
     {
@@ -11,3 +12,6 @@ if (!function_exists('Connect')) {
         }
     }
 }
+*/
+$argv = new mysqli("isw613.com", "root", "1234", "workshop5");
+return $argv;

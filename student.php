@@ -14,7 +14,8 @@ if ($conn->connect_errno) {
 $conn->close();
 return true;
 */
-
+$argv = new mysqli("isw613.com", "root", "1234", "workshop5");
+return $argv;
 function read_stdin()
 {
     $handler = fopen('php://stdin', 'r');
